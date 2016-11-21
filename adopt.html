@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Dogs! - Adopt, Don't Shop!</title>
+	<meta charset="utf-8">
+	<link href="site.css" rel="stylesheet">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script>
+		function sayRead (who) {
+			document.write("Read about: " + who);
+		}
+	</script>
+</head>
+
+<div id="wrapper">
+<h1>Dogs!</h1>
+
+<nav>
+	<ul>
+	   <li><a href="index.html">Home</a></li>
+	   <li><a href="breeds.html">Different Breeds</a></li>
+	   <li><a href="owning.html">What It Takes to Own a Dog</a></li>
+	   <li><a href="adopt.html">Adopt, Don't Shop!</a></li>
+	   <li><a href="links.html">Links to Local Shelters</a></li>
+	   <li><a href="contact.html">Contact Us!</a></li>
+	</ul>
+</nav>
+
+<div id="rightcol">
+<body>
+	<div class="text">
+		
+		<p class="intro">So you're interested in owning a dog &mdash; Congratulations! Now the next step 
+		is getting one. Consider adopting a dog, instead of searching to buy a specific dog from a breeder.</p>
+		
+		<h2><script>
+			sayRead ("Adopting vs. Shopping")
+			document.write("<br>")
+		</script></h2>
+		
+		<img src="images/shelter.jpg" width:"600" height:"400" alt=" ">
+		<p>Deciding what breed of dog is a difficult decision, but there's a better way to find out which dog
+		would be best for you: Adoption! There are thousands of dogs around the country in shelters that have
+		been neglected or given up by their previous owners, and all they need is a comfortable home and someone
+		they can depend on. <br><br> The process of &quot;shopping&quot; for a dog usually involves the use of
+		puppy mills, which specialize in breeding puppies for sale. Puppy mills are usually very inhumane, and
+		there are many dogs in animal shelters and in the streets around the world waiting for fur-ever homes!
+		<br><br>
+		Here is a chart comparing adopting a dog and shopping for a specific breed:
+		<table border="1">
+			<tr>
+				<td><h4>Adopting</h4></td>
+				<td><h4>Shopping</h4></td>
+			</tr>
+			<tr class="altrow">	
+				<td>Animals are usually mixed-breed</td>
+				<td>You have the option to select which breed you want to buy</td>
+			</tr>
+			<tr>
+				<td>Animals vary in age, from newborn puppies up to older animals</td>
+				<td>When buying from a breeder, usually you are presented with newborn or very young animals</td>
+			</tr>
+		</table>
+
+	<footer>
+		<p id="dnt"></p>
+		<script>
+			document.getElementById("dnt").innerHTML = Date();
+		</script>
+		Site created by Marco! <a href="mailto:email@mail.edu">Send me an email&#9786; </a>
+	</footer>
+</body>
+</div>
+</div>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Dogs!</title>
+	<meta charset="utf-8">
+	<link href="site.css" rel="stylesheet">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script>
+		function sayRead (who) {
+			document.write("Read about: " + who);
+		}
+	</script>
+	<script>
+		function disclaimer() {
+			alert("Disclaimer: This webpage is a work in progress, so excuse the inconsistencies and incompleteness. Enjoy!");
+		}
+	</script>
+</head>
+
+<div id="wrapper">
+<h1>Dogs!</h1>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="breeds.html">Different Breeds</a></li>
+			<li><a href="owning.html">What It Takes to Own a Dog</a></li>
+			<li><a href="adopt.html">Adopt, Don't Shop!</a></li>
+			<li><a href="links.html">Links to Local Shelters</a></li>
+			<li><a href="contact.html">Contact Us!</a></li>
+		</ul>
+	</nav>
+
+	<div id="rightcol">
+	<body onload="disclaimer()">
+	<div class="text">
+		<h2><script>
+			sayRead ("Different Breeds, Pros and Cons, &amp; Why You Should Adopt!")
+			document.write("<br>")
+		</script></h2>
+		<img src="images/dog1.jpg" height:"168" width:"460" alt="Dogs!">
+		<br>
+		<p>Hi there! My name is Marco and I'm an avid lover of dogs. I have launched this website
+		to educate all kinds of people about dogs. </p>
+		
+		<blockquote>
+		<i>Dogs are not our whole lives, but they make our lives whole.</i> - Roger Caras
+		</blockquote>
+		
+		<table border="1">
+		<caption>This site can be useful to you if:</caption>
+			<tr><td>You are interested in owning a dog, and want to know more about what it's like</td></tr>
+			<tr class="altrow"><td>You own a dog, and need resources to local shelters and vets</td><tr>
+			<tr><td>You just love dogs, and want to learn all there is to know about dogs!</td></tr>
+		</table>
+			
+	</div>
+	
+	<footer>
+		<p id="dnt"></p>
+		<script>
+			document.getElementById("dnt").innerHTML = Date();
+		</script>
+		Site created by Marco! <a href="mailto:email@mail.edu">Send me an email&#9786; </a>
+	</footer>
+</body>
+</div>
+</div>

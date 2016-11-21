@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Dogs! - Different Breeds</title>
+	<meta charset="utf-8">
+	<style>
+		figure {width:300px;
+				padding-bottom: 5px;
+				float:right;}
+		figcaption {text-align: center;
+				padding-top: 5px;
+				font-family: Georgia, serif;
+				font-style: italic;}
+	</style>
+	<link href="site.css" rel="stylesheet">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script>
+		function sayRead (who) {
+			document.write("Read about: " + who);
+		}
+	</script>
+</head>
+
+<div id="wrapper">
+<h1>Dogs!</h1>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="breeds.html">Different Breeds</a></li>
+			<li><a href="owning.html">What It Takes to Own a Dog</a></li>
+			<li><a href="adopt.html">Adopt, Don't Shop!</a></li>
+			<li><a href="links.html">Links to Local Shelters</a></li>
+			<li><a href="contact.html">Contact Us!</a></li>
+		</ul>
+	</nav>
+
+<div id="rightcol">
+<body>
+	<div class="text">
+		<p class="intro"> Here you'll find information about a number of different breeds. Things like basic care, attitude, 
+		if they're family-friendly, and common medical problems.</p>
+		
+		<h2><script>
+			sayRead ("Different Breeds")
+			document.write("<br>")
+		</script></h2>
+			
+		<table border="1">
+			<tr>
+				<td><h4>Name</h4></td>
+				<td><h4>Origin</h4></td>
+				<td><h4>Size</h4></td>
+				<td><h4>Colors</h4></td>
+				<td colspan="2"><h4>Description</h4></td>
+			</tr>
+			<tr class="altrow">
+				<td>The Akita</td>
+				<td>Japan</td>
+				<td>Large</td>
+				<td class="altcell":><ul>
+					<li>Black</li>
+					<li>Brown</li>
+					<li>Brown/Black overlay</li>
+					<li>Fawn</li>
+					<li>Fawn/Black overlay</li>
+					<li>Red</li>
+					<li>Red/Black overlay</li>
+					<li>Silver/Black overlay</li>
+					<li>White</li>
+					</ul>
+				</td>
+				<td>The Akita is a large sized dog which is characterized by being courageous, dignified, and extremely loyal.
+					A close cousin to the Shiba, they are somewhat active dogs, enjoying regular exercise without being extremely
+					hyper. They are very particular about their grooming habits, and their thick, medium-length coat requires 
+					weekly grooming. Furthermore, their diet requires regular, nutritious food and fresh water. Akitas are
+					prone to a number of health problems, however, these can be managed or prevented through close veteranary
+					care. Originating in Japan, the Akita is one of seven breeds designated as a national monument in the country. 
+				</td>
+				<td><img src="images/akita.jpg" height:"168" width:"460" alt="Dogs!"></td>
+		</table>
+					
+			
+
+	</div>
+	
+	<footer>
+		<p id="dnt"></p>
+		<script>
+			document.getElementById("dnt").innerHTML = Date();
+		</script>
+		Site created by Marco! <a href="mailto:email@mail.edu">Send me an email&#9786; </a>
+	</footer>
+</body>
+</div>
+</div>
