@@ -17,49 +17,42 @@
 			alert("Congrats!! You have been selected to win a FREE PUPPY!!! Fill in your email address under Join Our Newsletter and we'll get in touch with you about getting you your FREE PUPPY!!!");
 		}
 	</script>
-	<script>
-		function superannoying() {
-			alert("Wait!! Don't forget about your free puppy! If you leave this page now, your puppy won't be able to have a home :(");
-		}
-	</script>
 </head>
 
 <div id="wrapper">
 	<h1>Dogs!</h1>
 
-<nav onunload="superannoying()">
-	<ul>
-	   <li><a href="index.html">Home</a></li>
-	   <li><a href="breeds.html">Different Breeds</a></li>
-	   <li><a href="owning.html">What It Takes to Own a Dog</a></li>
-	   <li><a href="adopt.html">Adopt, Don't Shop!</a></li>
-	   <li><a href="links.html">Links to Local Shelters</a></li>
-	   <li><a href="contact.html">Contact Us!</a></li>
-	</ul>
-</nav>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="breeds.html">Different Breeds</a></li>
+			<li><a href="owning.html">What It Takes to Own a Dog</a></li>
+			<li><a href="adopt.html">Adopt, Don't Shop!</a></li>
+			<li><a href="links.html">Links to Local Shelters</a></li>
+			<li><a href="contact.html">Contact Us!</a></li>
+		</ul>
+	</nav>
 
-<div id="rightcol">
-<body onload="annoying()">
-			
+	<div id="rightcol">
+	<body onload="annoying()">	
 	<div class="text">
-	<p class="intro">Thanks for visiting! Here's how you can keep in touch with us if you have any questions or want to know more.</p>
+		<p class="intro">Thanks for visiting! Here's how you can keep in touch with us if you have any questions or want to know more.</p>
 	
-	<h2><script>
+		<h2><script>
 			sayRead ("Staying Informed")
 			document.write("<br>")
 		</script></h2>
 	
+		<img src="images/newspaper.jpg" width:"400" length:"313" alt="Stay informed!">
+		<h3>Join our Newsletter!</h3>
+	
+		<form method="get">
+		E-mail: <input type="text" name="email" id="email" >
+			<br>
+			<br>
+		<input type="submit" value="Sign Me Up!"> <input type="reset">
+		</form>
 	</div>
-	
-	<img src="images/newspaper.jpg" width:"400" length:"313" alt="Stay informed!">
-	<h3>Join our Newsletter!</h3>
-	
-	<form method="get">
-	E-mail: <input type="text" name="email" id="email" >
-		<br>
-		<br>
-	<input type="submit" value="Sign Me Up!"> <input type="reset">
-	</form>
 	
 	<footer>
 		<p id="dnt"></p>
@@ -68,6 +61,8 @@
 		</script>
 		Site created by Marco! <a href="mailto:email@mail.edu">Send me an email&#9786; </a>
 	</footer>
-</body>
+	</body>
+	</div>
 </div>
-</div>
+
+</html>
